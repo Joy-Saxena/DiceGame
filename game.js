@@ -1,3 +1,4 @@
+document.querySelector("body").addEventListener("click", function(){
 var randomNumber1=Math.floor(Math.random()*6)+1;
 var randomImage="dice"+randomNumber1+".png";
 var randomImageSource="./Dicee Challenge - Starting Files/images/"+randomImage;
@@ -17,3 +18,4 @@ var randomImageSource="./Dicee Challenge - Starting Files/images/"+randomImage;
  else{
     document.querySelector("h1").innerHTML="Player 2 Wins! &#x1F6A9;";
  }
+});
